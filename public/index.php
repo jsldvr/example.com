@@ -1,12 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
-</html>
+<?php
+/**
+ * Example Web App
+ * 
+ * This is an example doc block documenting the purpose of this file 
+ * and a high view description of this project. In this example web app, a LAMP 
+ * (Linux, Apache, MariaDB, PHP 8.2 FPM) stack will be utilized to create a 
+ * mostly static web application.
+ * 
+ * @version dev
+ * @since   dev
+ * @package Example
+ * @license Apache License 2.0
+ */
+
+define('APP_PATH', dirname(__DIR__) . '/app');
+
+require APP_PATH . "/autoload.php";
