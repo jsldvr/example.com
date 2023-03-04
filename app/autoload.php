@@ -11,11 +11,13 @@
  * @license   Apache License 2.0
  */
 
-/**
- * Application Path
- *
- * The absolute path to the application's root directory.
- *
- * @var string
- */
-define('APP_PATH', __DIR__);
+ // Load the Composer autoloader
+ require_once __DIR__ . '/../vendor/autoload.php';
+ 
+ // Register a PSR-4 autoloader for the app namespace
+ // This assumes that the app namespace maps to the app/ directory
+ // For example, App\Models\User class would be located at app/Models/User.php
+ $autoloader = new \Composer\Autoload\ClassLoader();
+ $autoloader->addPsr4('App\\', __DIR__);
+ $autoloader->register();
+ 
