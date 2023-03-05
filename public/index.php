@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Example Web App
  * 
@@ -13,6 +14,14 @@
  * @license Apache License 2.0
  */
 
+/**
+ * Load app and dependencies
+ */
 define('APP_PATH', dirname(__DIR__) . '/app');
 
 require APP_PATH . "/autoload.php";
+require APP_PATH . "/load_app.php";
+
+$loadApp = new LoadApp();
+$loadApp->loadConfigs();
+$loadApp->loadHome();
