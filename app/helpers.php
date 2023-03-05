@@ -1,8 +1,12 @@
 <?php
+
 /**
  * Helpers
  * 
  * Helpful PHP stand alone functions.
+ * 
+ * __Note__ Add new functions below this docblock and add documentation about 
+ * the function. 
  * 
  * @package Example\Helpers
  * @version 1.0.0
