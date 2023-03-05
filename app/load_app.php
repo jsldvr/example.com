@@ -3,9 +3,9 @@
 /**
  * Load Application
  * 
- * @package ExampleApp\Load
- * @since   sandbox
- * @version sandbox
+ * @package Example\LoadApp
+ * @since 1.0.0
+ * @version 1.0.0
  */
 
 class LoadApp
@@ -24,6 +24,7 @@ class LoadApp
 
     public function loadHome()
     {
+        require_once APP_PATH . '/helpers.php';
         require_once APP_PATH . '/views/home.php';
     }
 }

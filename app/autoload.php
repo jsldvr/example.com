@@ -1,14 +1,12 @@
 <?php
 /**
- * Configuration File
- *
- * This file contains the configuration settings for the Example Web App.
- *
- * @package   Example/Config
- * @version   dev
- * @since     2023-03-04
- * @author    Jorge Saldivar
- * @license   Apache License 2.0
+ * Autoload file
+ * 
+ * @package Example\Autoload
+ * @version 1.0.0
+ * @since 1.0.0
+ * @author Jorge Saldivar
+ * @license Apache License 2.0
  */
 
  // Load the Composer autoloader

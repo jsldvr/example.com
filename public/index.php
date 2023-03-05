@@ -8,9 +8,9 @@
  * (Linux, Apache, MariaDB, PHP 8.2 FPM) stack will be utilized to create a 
  * mostly static web application.
  * 
- * @version dev
- * @since   dev
  * @package Example
+ * @version 1.0.0
+ * @since 1.0.0
  * @license Apache License 2.0
  */
 
