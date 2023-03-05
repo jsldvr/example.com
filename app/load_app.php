@@ -10,6 +10,10 @@
 
 class LoadApp
 {
+    /**
+     * Return and require configuration files
+     * @since 1.0.0
+     */
     public function loadConfigs()
     {
         $config_dir = APP_PATH . '/config/';
@@ -22,6 +26,10 @@ class LoadApp
         }
     }
 
+    /**
+     * Return helpers and home page file
+     * @since 1.0.0
+     */
     public function loadHome()
     {
         require_once APP_PATH . '/helpers.php';
