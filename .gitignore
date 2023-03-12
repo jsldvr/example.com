@@ -4,3 +4,4 @@
 .phpdoc
 .vscode
 .htaccess
+.env
