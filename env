@@ -1,0 +1,11 @@
+# Production database connection
+DB_PROD_HOST=production_db_host # The host name of the production database server.
+DB_PROD_NAME=production_db_name # The name of the production database.
+DB_PROD_USER=production_db_user # The username for the production database connection.
+DB_PROD_PASS=production_db_password # The password for the production database connection.
+
+# Local database connection
+DB_LOCAL_HOST=localhost # The host name of the local database server.
+DB_LOCAL_NAME=local_db_name # The name of the local database.
+DB_LOCAL_USER=local_db_user # The username for the local database connection.
+DB_LOCAL_PASS=local_db_password # The password for the local database connection.
